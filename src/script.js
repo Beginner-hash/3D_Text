@@ -21,7 +21,7 @@ const textureLoader = new THREE.TextureLoader()
 const matcapTexture = textureLoader.load('/textures/matcaps/11.png')
 const material = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
 fontLoader.load('/fonts/helvetiker_regular.typeface.json', (font) => {
-  const textGeometry = new TextGeometry('Merguez', {
+  const textGeometry = new TextGeometry('Apple Vision Pro', {
     font: font,
     size: 0.5,
     height: 0.2,
